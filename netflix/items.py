@@ -15,9 +15,3 @@ class NetflixItem(scrapy.Item):
     series_url = scrapy.Field()
     series_img = scrapy.Field()
 
-
-class NetflixSeriesDesc(scrapy.Item):
-    year = scrapy.Field()
-    maturity_rating = scrapy.Field()
-    no_of_seasons = scrapy.Field()
-    desc = scrapy.Field()
